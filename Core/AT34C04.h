@@ -119,7 +119,7 @@ HAL_StatusTypeDef AT34C04_Initialize(
 /**
  * @fn HAL_StatusTypeDef AT34C04_Write_VReg_unit8(AT34C04*, uint8_t, uint8_t*)
  *
- * Write a uint8_t value to to an VREG EEPROM address
+ * Write a uint8_t value to an VREG EEPROM address
  *
  * This function allows to write a single uint8_t value to a specified
  * VREG address. The corresponding array and PREG are set automatically.
@@ -139,7 +139,7 @@ HAL_StatusTypeDef AT34C04_Write_VReg_unit8(
 /**
  * @fn HAL_StatusTypeDef AT34C04_Write_VReg_unit16(AT34C04*, uint8_t, uint16_t*)
  *
- * Write a uint16_t value to to an VREG EEPROM address
+ * Write a uint16_t value to an VREG EEPROM address
  *
  * This function allows to write a single uint16_t value to a specified
  * VREG address. The corresponding array and PREG are set automatically.
@@ -159,7 +159,7 @@ HAL_StatusTypeDef AT34C04_Write_VReg_unit16(
 /**
  * @fn HAL_StatusTypeDef AT34C04_Write_VReg_unit32(AT34C04*, uint8_t, uint32_t*)
  *
- * Write a uint32_t value to to an VREG EEPROM address
+ * Write a uint32_t value to an VREG EEPROM address
  *
  * This function allows to write a single uint32_t value to a specified
  * VREG address. The corresponding array and PREG are set automatically.
@@ -179,7 +179,7 @@ HAL_StatusTypeDef AT34C04_Write_VReg_unit32(
 /**
  * @fn HAL_StatusTypeDef AT34C04_Write_VReg_float(AT34C04*, uint8_t, float*)
  *
- * Write a float value to to an VREG EEPROM address
+ * Write a float value to an VREG EEPROM address
  *
  * This function allows to write a single float value to a specified
  * VREG address. The corresponding array and PREG are set automatically.

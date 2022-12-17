@@ -10,8 +10,8 @@
 
 #include "AT34C04.h"
 
-// variables // TODO make private
-HAL_StatusTypeDef ret;
+// variables
+HAL_StatusTypeDef ret; /**< Internal respone variable */
 
 // Group: EEPROM General Functions
 
